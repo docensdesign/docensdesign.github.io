@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'BrandonText-Medium';
+	src: url('webfonts/2D7510_0_0.eot');
+	src: url('webfonts/2D7510_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D7510_0_0.woff2') format('woff2'),url('webfonts/2D7510_0_0.woff') format('woff'),url('webfonts/2D7510_0_0.ttf') format('truetype');}
+
+/* Docens Logo */
+img{
+	width: 300px;
+	padding-left: 25px;
+	background-color: none;
+}
+
+header{
+	margin-top: 50px;
+}
+
+body {
+	background: url("images/bluesquare.png");
+	background-size: cover;
+	margin: 100px;
+}
+nav{
+	width: 400px;
+	float: right;
+	bottom: 0;
+}
+
+ul {
+	font-family: "BrandonText-Medium";
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+	list-style-type: none;
+	margin: 0px; 
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul li{
+	float: right;
+}
+
+ul a:link, a:visited {
+		display: block;
+/*		width: 50px;*/
+		font-weight: bold;
+		color: white;
+		text-align: left;
+		padding: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+ul a:hover, a:active {
+		text-decoration: underline;
+/*		width: 50px;
+		color: white;*/
+}
+
+h2 {
+	color: white;
+	text-align: left;
+	font-family: "BrandonText-Medium";
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 50px;
+	width: 150px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+
+.purple{
+	color: #FF00FF;
+}
+
+#slogan {
+	color: white;
+	font-family: "BrandonText-Medium";
+	font-size: 50px;
+	font-style: italic;
+	margin-top: 30px;
+	padding-left: 125px;
+}
+
+div p {
+	color: rgba(0,0,0,0.7);
+	font-family: "Helvetica";
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5em;
+	background-color: rgba(255,255,255,0.5);
+	margin-top: 40px;
+	width: 600px;
+	padding: 20px;
+}
+
+#email p{
+	background: none;
+}
+
+#email a:link {
+	color: rgba(0,0,0,0.7);
+	font-family: "BrandonText-Medium";
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
