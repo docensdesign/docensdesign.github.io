@@ -1,27 +1,31 @@
+/* Concept 3 About */
 @font-face {
 	font-family: 'BrandonText-Medium';
 	src: url('webfonts/2D7510_0_0.eot');
 	src: url('webfonts/2D7510_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D7510_0_0.woff2') format('woff2'),url('webfonts/2D7510_0_0.woff') format('woff'),url('webfonts/2D7510_0_0.ttf') format('truetype');}
 
-/* Docens Logo */
-img{
-	width: 300px;
-	padding-left: 25px;
-	background-color: none;
+body {
+	background: white;
 }
 
 header{
 	margin-top: 50px;
+	padding-bottom: 10px;
 }
 
-body {
-	background: url("images/bluesquare.png");
-	background-size: cover;
-	margin: 100px;
+/* Docens Logo */
+img{
+	width: 300px;
+	margin-top: 0px;
+	margin-left: 50px;
+	background-color: none;
 }
+
+#navbar
 nav{
 	width: 400px;
 	float: right;
+	margin-right: 70px;
 	bottom: 0;
 }
 
@@ -29,10 +33,11 @@ ul {
 	font-family: "BrandonText-Medium";
 	font-size: 12px;
 	font-weight: normal;
-	color: white;
+	letter-spacing: 2px;
+	color: rgb(0,0,0);
 	text-align: left;
 	list-style-type: none;
-	margin: 0px; 
+	margin-top: 30px; 
 	padding: 0px;
 	overflow: hidden;
 }
@@ -45,7 +50,7 @@ ul a:link, a:visited {
 		display: block;
 /*		width: 50px;*/
 		font-weight: bold;
-		color: white;
+		color: rgb(0,0,0);
 		text-align: left;
 		padding: 20px;
 		text-decoration: none;
@@ -58,44 +63,106 @@ ul a:hover, a:active {
 		color: white;*/
 }
 
-h2 {
-	color: white;
-	text-align: left;
+#top-page
+.circle {
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	margin-top: 40px;
+	margin-left: 50px;
 	font-family: "BrandonText-Medium";
 	font-size: 12px;
-	font-weight: bold;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	line-height: 95px;
 	text-transform: uppercase;
-	background-color: rgba(0,0,0,0.5);
-	margin-top: 50px;
-	width: 150px;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 7px;
+	background: rgb(5,227,228);
 }
 
+.rectangle {
+	width: 75px;
+	height: 9px;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-left: 55px;
+	margin-bottom: 55px;
+	background: rgb(0,0,0);
+}
+
+/*{
+	background: url("images/bluesquare.png");
+	background-size: cover;
+	margin: 50px;
+}*/
+
+
+/* Test Para styles
 .purple{
 	color: #FF00FF;
-}
+}*/
 
+/*
 #slogan {
 	color: white;
 	font-family: "BrandonText-Medium";
-	font-size: 50px;
-	font-style: italic;
+	font-size: 45px;
+	letter-spacing: 0.6px;
 	margin-top: 30px;
-	padding-left: 125px;
+	padding-left: 50px;
+}*/
+ul#grid {
+  padding: 0;
+  list-style: none;
+  margin: auto 0;
+  max-width: 1200px;
+  }
+
+#grid li {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+  } 
+
+/*
+#imagegallery{
+	width: 900px;
 }
 
+.imagelist img{
+	margin: 10px;
+	width: 300px;
+	height: 300px;
+}*/
+
+/*.imagelist a{
+	display: inline-block;
+}*/
+
+#main
+h2 {
+	color: rgb(0,0,0);
+	text-align: left;
+	font-family: "BrandonText-Medium";
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 80px;
+	margin-left: 25px;
+}
 div p {
-	color: rgba(0,0,0,0.7);
+	color: rgb(0,0,0);
 	font-family: "Helvetica";
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.5em;
-	background-color: rgba(255,255,255,0.5);
-	margin-top: 40px;
-	width: 600px;
-	padding: 20px;
+	max-width: 550px;
+	margin-left: 25px;
 }
 
 #email p{
@@ -103,9 +170,10 @@ div p {
 }
 
 #email a:link {
-	color: rgba(0,0,0,0.7);
+	color: rgb(0,0,0);
 	font-family: "BrandonText-Medium";
 	font-size: 12px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
