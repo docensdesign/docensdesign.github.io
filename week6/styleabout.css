@@ -1,4 +1,4 @@
-/* Row 18 ABOUT PAGE STYLE WEEK 6 V1*/
+/* Row 18 ABOUT PAGE STYLE WEEK 6 V2*/
 
 body{	
 	background-color: white;
@@ -10,7 +10,7 @@ body{
 	margin: 0;
 	padding: 0;
 	display: block;
-	height: 100%
+	height: 100%;
 }
 
 /*#wrapper{
@@ -18,38 +18,35 @@ body{
 }*/
 
 header{
-	margin: 0px;
-	padding: 10px;
+	padding: 70px 70px 0px 70px;
 	position: relative;
 	width: 100%;
-	height: 90px;
-	background-color: white;
+	height: 220px;
+	/*background-color: pink;*/
 	display: block;
 }
 
-/* Row 18 Logo Text*/
+/* Row 18 Logo Circle*/
 img{
-	width: 110px;
-	margin-top: 30px;
-	margin-left: 40px;
+	width: 130px;
 }
 
 nav{
 	width: 400px;
 	float: right;
-	margin-top: 15px;
+	margin-top: 70px;
 	/*bottom: 0;*/
 }
 
 ul {
-	font-family: "Arvo Serif" serif;
+	font-family: "Source Sans Pro" sans-serif;
 	font-size: 14px;
-	font-weight: normal;
+	font-weight: 300;
 	color: #024154;
 	text-align: left;
 	list-style-type: none;
 	margin-top: 10px;
-	margin-right: 100px;
+	/*margin-right: 100px;*/
 	padding: 0px;
 	overflow: hidden;
 }
@@ -75,10 +72,10 @@ ul a:hover, a:active {
 
 hr{
     display: block;
-    margin-left: 40px;
+    margin-left: 80px;
     width: 105px;
     border-style: inset;
-    border-width: 3px;
+    border-width: 2px;
     border-color: black;
 }
 
@@ -101,7 +98,6 @@ hr{
 	background-color: white;
 	/*padding: 0 15px;*/
 	margin-left: 0px;
-	margin-top: 60px;
 }
 
 #maincontentwrapper{
@@ -116,6 +112,7 @@ hr{
 	/*background-color: #05b3fc;*/
 	padding: 0;
 	margin-left: 80px;
+	margin-bottom: 20px;
 	width: 40%;
 	float: left;
 }
@@ -126,6 +123,7 @@ hr{
 	padding: 0px;
 	/*margin: 0 25px;*/
 	margin-left: 50px;
+	margin-bottom: 20px;
 	width: 40%;
 	float: left;
 }
@@ -143,8 +141,8 @@ hr{
 }
 
 span{
-	font-family: "Helvetica" sans-serif;
-	font-weight: bold;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 600;
 	font-size: 14px;
 	line-height: 20px;
 	color: black;
@@ -152,11 +150,13 @@ span{
 
 .h1line h1{
 	color: #024154;
-	font-family: "Arvo Serif" serif;
-	font-weight: normal;
-	font-size: 60px;
-	font-style: italic;
-	margin-left: 80px;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-left: 75px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
 	/*border-bottom: 2px solid black;
 	width: 150px;
 	display: inline-block;*/
@@ -165,41 +165,42 @@ span{
 .title h1{
 	clear: both;
 	color: #024154;
-	font-family: "Arvo Serif" serif;
-	font-weight: normal;
-	font-size: 30px;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 300;
+	font-size: 20px;
 	margin: 30px 0 0 0;
+	text-transform: uppercase;
 }
 
 h1{
 	color: #024154;
-	font-family: "Arvo Serif" serif;
-	font-weight: normal;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 400;
 	font-size: 40px;
 }	
 
 h2{
 	color: white;
-	font-family: "Arvo Serif" serif;
-	font-weight: normal;
-	font-size: 18px;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 	text-transform: lowercase;
 }
 
 p{
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
-	font-size: 11px;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
 	line-height: 20px;
 	color: white;
 	margin-top: 15px
 }
 
 .bodycopy p{
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 300;
 	font-size: 12px;
-	line-height: 20px;
+	line-height: 18px;
 	color: black;
 	display: inline-block;
 }
@@ -207,8 +208,8 @@ p{
 #email p{
 	background: none;
 	color: white;
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
 	font-size: 12px;
 	text-transform: lowercase;
 	float: left;
@@ -216,8 +217,8 @@ p{
 
 #email a:link {
 	color: white;
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
 	font-size: 12px;
 	text-transform: lowercase;
 	float: left;
@@ -235,7 +236,7 @@ footer{
 }
 
 #column1{
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-top: 10px;
 	width: 160px;
 	border: none;
@@ -252,9 +253,9 @@ footer{
 }
 
 .column p{
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
-	font-size: 11px;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
 	line-height: 20px;
 	color: white;
 	margin-top: 15px;
@@ -269,15 +270,15 @@ footer{
 	float: none;
 	width: 200px;
 	height: 20px;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-top: 100px;
 	padding: 10px;
 }
 
 #copyright p{
 	color: white;
-	font-family: "Helvetica" sans-serif;
-	font-weight: normal;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
 	font-size: 10px;
 }
 
