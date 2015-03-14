@@ -243,6 +243,11 @@ footer{
 }
 
 .column{
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
 	display: block;
 	float: left;
 	width: 180px;

@@ -149,7 +149,7 @@ p{
 	color: white;
 }
 
-#email p{
+/*#email p{
 	background: none;
 }
 
@@ -159,6 +159,25 @@ p{
 	font-weight: 200;
 	font-size: 11px;
 	text-transform: lowercase;
+}*/
+
+#email p{
+	background: none;
+	color: white;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	text-transform: lowercase;
+	float: left;
+}
+
+#email a:link {
+	color: white;
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	text-transform: lowercase;
+	float: left;
 }
 
 footer{
@@ -220,6 +239,11 @@ footer{
 }
 
 .column{
+	font-family: "Source Sans Pro" sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
 	display: block;
 	float: left;
 	width: 180px;
