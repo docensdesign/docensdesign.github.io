@@ -24,9 +24,10 @@ body{
 	width: 960px;*/
 
 header{
-	padding: 70px 70px 0px 70px;
+	padding: 70px 0 0;
 	position: relative;
-	width: 100%;
+	width: 85%;
+	margin: 0 90px 0 90px;
 	height: 220px;
 	/*background-color: pink;*/
 	display: block;
@@ -40,7 +41,7 @@ img{
 nav{
 	width: 400px;
 	float: right;
-	margin-top: 70px;
+	margin: 70px 0 0 0;
 	/*bottom: 0;*/
 }
 
@@ -77,9 +78,9 @@ ul a:hover, a:active {
 
 hr{
     display: block;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-bottom: 30px;
-    width: 105px;
+    width: 100px;
     border-style: inset;
     border-width: 2px;
     border-color: black;
@@ -127,9 +128,10 @@ hr{
 
 #barimage img{
 	width: 85%;
-	margin-top: 30px;
+	margin: 0 90px 90px 95px; 
+	/*margin-top: 30px;
 	margin-left: 80px;
-	margin-bottom: 70px;
+	margin-bottom: 70px;*/
 	padding: 0;
 }
 	
