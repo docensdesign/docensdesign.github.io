@@ -384,7 +384,7 @@ footer{
 }
 
 #contact{
-	width: 20%;
+	width: 40%;
 	height: 115px;
 	margin: 0 auto;
 	padding: 2em;
@@ -509,14 +509,6 @@ footer{
 
 @media screen and (max-width:1021px){
 
-header{
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	height: 5em;
-	background-color: rgb(0,0,0);
-}
-
 #logo_area{
 	width: 150px;
 	margin: 1.5em 0 0 2em;
@@ -530,28 +522,114 @@ header{
 	transform: translateX (-50%);
 }
 
-#mainbody{
-	/*border: 10px blue solid;
-	background-color: green;*/
-	overflow: auto;
-	width: 100%;
+#col1 {
+	/*background-color: #05b3fc;*/
+	padding: 0;
+	margin: 8em 0 0 8em;
+	width: 40%;
 	display: block;
+	position: absolute;
 }
+
+}
+/* -------------------- MEDIA QUERY GALAXY 900px ----*/
+@media screen and (max-width:900px){
 
 #col1 {
 	/*background-color: #05b3fc;*/
 	padding: 0;
 	margin: 8em 0 0 8em;
-	width: 30%;
+	width: 40%;
 	display: block;
 	position: absolute;
 }
+
+/* ----------------MQ IPAD 900px ABOUT TEXT ----*/
+#col1_about h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
 }
 
-/* -------------------- MEDIA QUERY IPHONE 4-5 960px ----*/
-@media screen and (max-width:960px){
+#col2_abouttext{
+	width: 65%;
+	float: left;
+	margin: 60px 0 60px 0;
+}
+
+#col2_abouttext p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#expertise_title h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+
+#expert_icons{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 3em;
+	display: block;
+}
+
+#info h4{
+	margin: 1.5em 0 0 0;
+	display: block;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+#info p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+}
+}
+
+/* -------------------- MEDIA QUERY IPAD 1–MINI 768px ----*/
+@media screen and (max-width:768px){
 
 #main_nav{
+	display: none !important;
+}
+
+#main_nav ul{
+	display: none !important;
+}
+
+#main_nav ul li{
+	display: none !important;
+}
+
+#main_nav ul a:link, a:visited {
+	display: none !important;
+}
+
+#main_nav ul a:hover, a:active {
 	display: none !important;
 }
 
@@ -563,9 +641,26 @@ footer{
 	display: none !important;
 }
 
+#contact_wrapper{
+	display: none !important;
+}
+
+#email_contact a{
+	display: none !important;
+}
+
+#email_contact a:hover, a:active {
+	display: none !important;
+}
+
+#email_contact a:link a:visited{
+	display: none !important;
+}
+
 #logo_mobile{
 	width: 100%;
 	margin: 0 auto;
+	height: 5em;
 	display: block;
 }
 
@@ -573,29 +668,30 @@ footer{
 	width: 150px;
 	margin: 0 auto;
 	display: block;
-	padding: 1.3em;
+	padding: 1.6em 1.3em 1.3em 1.3em;
 }
 
 #logo_box img{
-	width: 150px;
+	width: 100%;
 }
 
 #nav_mobile{
 	display: block;
 	width: 100%;
+	height: 50px;
 	margin: 0 auto;
 	position: fixed;
 	bottom:0;
-	z-index:102;
-	line-height: 10px;
-	background-color: pink;
+	background-color: #000;
 }
 
 label {
 		display: block;
 		width: 100%;
+		height: 70px;
+		margin: 0 auto;
 	  	cursor: pointer;
-		padding:1.2em 2em;
+		padding: 1.5em 0 1em 0;
 		font-family: "Source Sans Pro" sans-serif;
 		font-size: 1em;
 		font-weight: 400;
@@ -603,9 +699,10 @@ label {
 		text-transform: uppercase;
 		color: white;
 		list-style-type: none;
-		overflow: hidden;
 		letter-spacing: 0.05em;	
 		line-height: 20px;
+		z-index: 1;
+		overflow: hidden;
 	}
 
 #menu_toggle{
@@ -616,13 +713,11 @@ label {
 		display: none;
 	}
 
-#menu_toggle:checked + #menu_list{
-		display:block;
-		width:100%;
-		height: 20em;
+#menu_toggle:checked{
+		display: block;
+		width: 100%;
+		height: 100px;
 		position: absolute;
-		top:-170px;
-		background-color: #000;
 		font-family: "Source Sans Pro" sans-serif;
 		font-size: 1em;
 		font-weight: 400;
@@ -632,82 +727,72 @@ label {
 		color: white;
 		list-style-type: none;
 		letter-spacing: 0.05em;	
-		line-height: 3em;
-	}
-
-/*#menu_list{
-	display: block;
-	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-	list-style-type: none;
-	overflow: hidden;
-	letter-spacing: 0.05em;	
-	line-height: 3em;
-}*/
-
-#menu_list ul {
-	display: block;
-	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: white;
-	list-style-type: none;
-	letter-spacing: 0.05em;	
-	line-height: 3em;
 }
 
-#menu_list ul li{
-	display: block;
-	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: white;
-	list-style-type: none;
-	letter-spacing: 0.05em;	
-	line-height: 3em;
-}
-
-#menu_list ul a:link, a:visited {
+#menu_toggle:checked + #menu_list{
 		display: block;
 		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		height: 120px;
+		position: absolute;
+		top: -120px;
+		background-color: #000;
+		font-family: "Source Sans Pro" sans-serif;
+		font-size: 1em;
+		font-weight: 400;
+		color: white;
+		text-align: center;
+		/*line-height: 10px;*/
+	}
+
+ul li{
+		display: inline-block;
+		margin: 0 auto;
 		font-weight: 400;
 		color: white;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		background-color: white;
-		line-height: 3em;
+		width: 100%;
+		height: 30px;
+		padding: 0;
 }
 
-#menu_list ul a:hover, a:active {
-		display: block;
+ul a:link, a:visited {
+		display: inline-block;
+		margin: 0 auto;
+		font-weight: 400;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
 		width: 100%;
+		height: 30px;
+		padding: .5em;
+}
+
+ul a:hover, a:active {
+		display: inline-block;
+		margin: 0 auto;
 		font-weight: 400;
 		color: black;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		background-color: white;
-		line-height: 3em;
+		width: 100%;
+		height: 30px;
+		padding: .5em;
 }
+
+/* ------MQ IPAD 768px MAINBODY Columns: Tagline and Squares ----*/
 
 #mainbody{
 	/*border: 10px blue solid;
 	background-color: green;*/
-	overflow: auto;
+	overflow: hidden;
+	height: auto;
 	width: 100%;
 	display: block;
 	position: relative;
@@ -716,31 +801,444 @@ label {
 #col1 {
 	/*background-color: #05b3fc;*/
 	padding: 0;
-	margin: 6em auto;
+	margin-top: 19.5em;
+	margin-right: auto;
+	margin-bottom: 5em;
+	margin-left: auto;
 	width: 100%;
 	display: block;
+	overflow: hidden;
 	position: absolute;
 	z-index: 1;
 }
 
 #square_wrapper{
-	width: 30%;
-	height: 500px;
-	left: 35%;
+	width: 40%;
+	height: 600px;
+	left: 30%;
 	margin: 0;
 	float: none;
 	position: relative;
+	margin-right: none;
+	margin-left: none;
+}
+
+#col2{
+	/*background-color: #84d9fc;*/
+	margin: 0;
+	width: 100%;
+	float: none;
+	/*overflow: hidden;*/
 }
 
 #col3{
 	/*background-color: #84d9fc;*/
-	margin: 0 0 0 10em;
+	margin: 0;
 	width: 100%;
 	overflow: hidden;
 	bottom: 0;
 	position: absolute;
 }
 
+/* ----------------MQ IPAD 768px ABOUT TEXT ----*/
+#col2_abouttext{
+	width: 65%;
+	float: left;
+	margin: 60px 0 60px 0;
 }
 
+#expert_icons{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 3em;
+	display: block;
+}
+
+#info h4{
+	margin: 1.5em 0 0 0;
+	display: block;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+#info p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+}
+}
+
+/* -------------------- MEDIA QUERY IPHONE 4-5 640px ----*/
+@media screen and (max-width:640px){
+
+#mainbody{
+	/*border: 10px blue solid;
+	background-color: green;*/
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+#col1 {
+	/*background-color: #05b3fc;*/
+	padding: 0;
+	margin-top: 15em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+#square_wrapper{
+	width: 40%;
+	height: 500px;
+	left: 30%;
+	margin: 0;
+	float: none;
+	position: relative;
+	margin-right: none;
+	margin-left: none;
+}
+
+#col2_abouttext{
+	width: 65%;
+	float: left;
+	margin: 60px 0 60px 0;
+}
+
+
+#col1_about h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+
+#col2_abouttext p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#expertise_title h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+
+#expert_icons{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 3em;
+	display: block;
+}
+
+#info h4{
+	margin: 1.5em 0 0 0;
+	display: block;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+#info p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.icon_info{
+	width: 100%;
+	height: 110px;
+	margin-bottom: 1em;
+	display: inline-block;
+	clear: both;
+}
+
+.icon_img{
+	margin: 0 auto;
+	clear: both;
+}
+
+.icon_type{
+	width: 4em;
+	margin: 1.5em 2em 3em 2em;
+	float: left;
+	display: inline-block;
+}
+}
+
+/* -------------------- MEDIA QUERY IPHONE 6+ 414px ----*/
+@media screen and (max-width:414px){
+
+#col1 {
+	/*background-color: #05b3fc;*/
+	padding: 0;
+	margin-top: 15.5em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+#square_wrapper{
+	width: 60%;
+	height: 500px;
+	left: 20%;
+	margin: 0;
+	float: none;
+	position: relative;
+	margin-right: none;
+	margin-left: none;
+}
+
+#col1_about{
+	width: 30%;
+	float: left;
+	margin: 2em 0 0 2em;
+}
+
+#col2_abouttext{
+	width: 90%;
+	float: left;
+	margin: 1.5em 0 2em 2em;
+}
+
+#col1_about h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+
+#col2_abouttext p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#expertise_title{
+	width: 40%;
+	float: left;
+	margin: 2em 0 2em 2em;
+}
+
+#expert_icons{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 1em 1em 1em .5em;
+	display: block;
+}
+
+.icon_info{
+	width: 90%;
+	height: 130px;
+	margin-bottom: 1em;
+	display: inline-block;
+	clear: both;
+}
+
+.icon_type{
+	width: 3em;
+	margin: 1.5em 1.5em 5em 0;
+	float: left;
+	display: inline-block;
+}
+}
+
+/* -------------------- MEDIA QUERY IPHONE 5 320px ----*/
+@media screen and (max-width:320px){
+
+#col1 {
+	/*background-color: #05b3fc;*/
+	padding: 0;
+	margin-top: 13em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+#tagline h1{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 2.3em;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+	letter-spacing: -0.01em;
+	padding-bottom: 20px;	
+}
+
+#services p{
+	display: block;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	padding-bottom: 30px;	
+}
+
+#portfolio{
+	display: block;
+	width: 100%;
+}
+
+#portfolio_button{
+	display: block;
+	width: 120px;
+	background-color: rgb(61, 122, 247);
+	margin: 0 auto;
+}
+
+#portfolio_button h3{
+	display: block;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: .85em;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	letter-spacing: .05em;
+}
+
+#portfolio_button a{
+	display: inline-block;
+	width: 100%;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: .85em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 1em;
+	letter-spacing: .05em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#portfolio_button a:hover, a:active {
+	color: #ffffff;
+	background-color: #000;
+	display: block;
+	width: 100%;
+}
+
+#square_wrapper{
+	width: 60%;
+	height: 420px;
+	left: 20%;
+	margin: 0;
+	float: none;
+	position: relative;
+	margin-right: none;
+	margin-left: none;
+}
+
+#col1_about{
+	width: 30%;
+	float: left;
+	margin: 2em 0 0 2em;
+}
+
+#col2_abouttext{
+	width: 80%;
+	float: left;
+	margin: 1.5em 2em 2em 2em;
+}
+
+#col1_about h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.75em;
+	letter-spacing: .05em;
+}
+
+#col2_abouttext p{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.2em;
+	font-weight: 200;
+	color: white;
+	text-align: left;
+	line-height: 1.75em;
+}
+
+#expertise_title{
+	width: 40%;
+	float: left;
+	margin: 1.5em 0 1.5em 2em;
+}
+
+#expertise_title h2{
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.75em;
+	letter-spacing: .05em;
+}
+
+#expert_icons{
+	width: 90%;
+	height: 520px;
+	margin: 1em;
+	padding: 1em 1em 1em .75em;
+	display: block;
+}
+}
 	
