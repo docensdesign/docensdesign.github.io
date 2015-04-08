@@ -563,14 +563,6 @@ footer{
 	display: none !important;
 }
 
-header{
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	height: 5em;
-	background-color: rgb(0,0,0);
-}
-
 #logo_mobile{
 	width: 100%;
 	margin: 0 auto;
@@ -590,40 +582,60 @@ header{
 
 #nav_mobile{
 	display: block;
+	width: 100%;
+	margin: 0 auto;
 	position: fixed;
 	bottom:0;
-	background-color: black;
+	z-index:102;
+	line-height: 10px;
+	background-color: pink;
 }
 
 label {
-	display: block;
-	cursor: pointer;
-	text-align: center;
-	padding:1.2em 2em;
-	font-size:.8em;
-	text-transform: uppercase;
-	letter-spacing:.07em;
+		display: block;
+		width: 100%;
+	  	cursor: pointer;
+		padding:1.2em 2em;
+		font-family: "Source Sans Pro" sans-serif;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+		list-style-type: none;
+		overflow: hidden;
+		letter-spacing: 0.05em;	
+		line-height: 20px;
 	}
 
-#menu-toggle{
+#menu_toggle{
 		display: none;
 	}
 
-#menu-toggle:checked + #menu {
-	display:block;
-	width:100%;
-	text-align: center;
-	position: absolute;
-	top:-170px;
-	background-color: #000;
+#menu_list{
+		display: none;
 	}
 
-li, li a{
-	width:100%;
-	display: block;
+#menu_toggle:checked + #menu_list{
+		display:block;
+		width:100%;
+		height: 20em;
+		position: absolute;
+		top:-170px;
+		background-color: #000;
+		font-family: "Source Sans Pro" sans-serif;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: white;
+		list-style-type: none;
+		letter-spacing: 0.05em;	
+		line-height: 3em;
 	}
 
-#menu ul {
+/*#menu_list{
 	display: block;
 	width: 100%;
 	font-family: "Source Sans Pro" sans-serif;
@@ -635,38 +647,61 @@ li, li a{
 	list-style-type: none;
 	overflow: hidden;
 	letter-spacing: 0.05em;	
-}
+	line-height: 3em;
+}*/
 
-#menu ul li{
+#menu_list ul {
 	display: block;
-	height: 3em;
-	width: 120px;
+	width: 100%;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 400;
 	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	letter-spacing: 0.05em;	
+	line-height: 3em;
 }
 
-#menu ul a:link, a:visited {
+#menu_list ul li{
+	display: block;
+	width: 100%;
+	font-family: "Source Sans Pro" sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	letter-spacing: 0.05em;	
+	line-height: 3em;
+}
+
+#menu_list ul a:link, a:visited {
 		display: block;
+		width: 100%;
 		font-weight: 400;
 		color: white;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		width: 120px;
-		height: 3em;
-		padding: 1em;
+		background-color: white;
+		line-height: 3em;
 }
 
-#menu ul a:hover, a:active {
+#menu_list ul a:hover, a:active {
 		display: block;
+		width: 100%;
 		font-weight: 400;
 		color: black;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		background-color: white;
-		width: 120px;
-		height: 3em;
-		padding: 1em;
+		line-height: 3em;
 }
 
 #mainbody{
@@ -675,83 +710,35 @@ li, li a{
 	overflow: auto;
 	width: 100%;
 	display: block;
+	position: relative;
 }
 
 #col1 {
 	/*background-color: #05b3fc;*/
-	padding: 12em;
-	margin: 0 auto;
+	padding: 0;
+	margin: 6em auto;
 	width: 100%;
 	display: block;
 	position: absolute;
+	z-index: 1;
 }
 
-#tagline h1{
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: 3em;
-	font-weight: 300;
-	color: #000;
-	text-align: center;
-	letter-spacing: -0.01em;
-	padding-bottom: 20px;	
+#square_wrapper{
+	width: 30%;
+	height: 500px;
+	left: 35%;
+	margin: 0;
+	float: none;
+	position: relative;
 }
 
-#services p{
-	display: block;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: 1.15em;
-	font-weight: 400;
-	color: #000;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: -0.01em;
-	padding-bottom: 30px;	
-}
-
-#portfolio{
-	display: block;
+#col3{
+	/*background-color: #84d9fc;*/
+	margin: 0 0 0 10em;
 	width: 100%;
-}
-
-#portfolio_button{
-	display: block;
-	width: 150px;
-	background-color: rgb(61, 122, 247);
-	margin: 0 auto;
-}
-
-#portfolio_button h3{
-	display: block;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: .95em;
-	font-weight: 400;
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0 auto;
-	letter-spacing: .05em;
-}
-
-#portfolio_button a{
-	display: inline-block;
-	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
-	font-size: .95em;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0 auto;
-	padding: 1em;
-	letter-spacing: .05em;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-#portfolio_button a:hover, a:active {
-	color: #ffffff;
-	background-color: #000;
-	display: block;
-	width: 100%;
+	overflow: hidden;
+	bottom: 0;
+	position: absolute;
 }
 
 }
