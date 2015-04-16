@@ -1,4 +1,4 @@
-/* WEEK 9 Docens Design_v3*/
+/* WEEK 12 Docens Design_v4*/
 
 body{
 	font-size: 14px;
@@ -46,7 +46,7 @@ header{
 	display: block;
 	float: right;
 	width: 500px;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	text-align: center;
@@ -110,7 +110,7 @@ header{
 }
 
 #tagline h1{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 3em;
 	font-weight: 300;
 	color: #000;
@@ -121,7 +121,7 @@ header{
 
 #services p{
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.15em;
 	font-weight: 400;
 	color: #000;
@@ -145,7 +145,7 @@ header{
 
 #portfolio_button h3{
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: .95em;
 	font-weight: 400;
 	color: white;
@@ -158,7 +158,7 @@ header{
 #portfolio_button a{
 	display: inline-block;
 	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: .95em;
 	font-weight: 400;
 	text-align: center;
@@ -245,7 +245,7 @@ header{
 }
 
 #col1_about h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 2em;
 	font-weight: 300;
 	color: white;
@@ -261,7 +261,7 @@ header{
 }
 
 #col2_abouttext p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 2em;
 	font-weight: 200;
 	color: white;
@@ -304,7 +304,7 @@ display: block;
 }
 
 #expertise_title h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 2em;
 	font-weight: 300;
 	color: white;
@@ -350,7 +350,7 @@ display: block;
 #info h4{
 	margin: 1.5em 0 0 0;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #000;
@@ -360,7 +360,7 @@ display: block;
 }
 
 #info p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2em;
 	font-weight: 300;
 	color: #000;
@@ -394,7 +394,7 @@ footer{
 .contact_heading h3{
 	margin: 0 auto;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	color: #ffffff;
@@ -409,7 +409,7 @@ footer{
 	margin: 0 auto;
 	padding-top: 1em;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #ffffff;
@@ -423,7 +423,7 @@ footer{
 #email_contact a{
 	margin: 0 auto;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #ffffff;
@@ -442,7 +442,7 @@ footer{
 #email_contact a:link a:visited{
 	margin: 0 auto;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #ffffff;
@@ -473,13 +473,247 @@ footer{
 	display: none;
 }
 
+/*---------------PORTFOLIO PAGE 2 -------------------------------*/
+
+/*---------------PORTFOLIO Section 1-----------*/
+
+#portfolio_pagewrapper{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+#portfolio_sect1{
+	display: block;
+	width: 100%;
+	overflow: auto;
+	margin-top: 3em;
+}
+
+#conic_content{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#textbox{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding: .75em;
+	background-color: #000;
+}
+
+#conic_text{
+	width: 60%;
+	margin: 0;
+}
+
+#conic_text h2{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+	letter-spacing: .05em;
+	text-transform: uppercase
+}
+
+#conic_text p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#conic_image{	
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#conic_cover1{
+	width: 100%;
+	display: block;
+}
+
+#conic_cover1 img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+
+/*---------------PORTFOLIO Section 2-----------*/
+
+
+#portfolio_sect2{
+	display: block;
+	width: 100%;
+	overflow: auto;
+	margin-top: 3em;
+}
+
+#lww_content{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#lww_text{
+	width: 60%;
+	margin: 0;
+}
+
+#lww_text h2{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+	letter-spacing: .05em;
+	text-transform: uppercase
+}
+
+#lww_text p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#lww_image{	
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#lww_cover1{
+	width: 100%;
+	display: block;
+}
+
+#lww_cover1 img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+/*--------------- CONIC IMAGE with HOVER TEXT-----------
+
+#box{
+	height: 400px;
+	width: 900px;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+}
+
+#con1{
+	min-width: 100%;
+	min-height: 100%;
+	background: url("images/2.jpg"); no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+#con1:hover{
+	background-color:rgba(61,122,247,.85);
+	margin: 0 auto;
+	display: block;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+#con1 a:hover{
+	text-decoration: none;
+}
+
+#con1 p{
+	display: none;
+}
+
+#con1:hover p{
+	display: block;
+	width: 900px;
+	height: 400px;
+	background-color:rgba(61,122,247,.85);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 12em 5em 3em 3em;
+	text-decoration: none;
+}*/
+
+/*#conic_overlay{
+
+	background: rgba(61,122,247,.5);
+	text-align: left;
+	padding: 10px auto;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	z-index: 1;
+}
+
+#conic_image:hover #conic_overlay{
+	background: rgba(61,122,247,.5);
+	opacity: 1;
+	width: 797px;
+	height: 501px;
+	text-align: left;
+	padding: 2em auto;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	z-index: 1;
+}
+
+#conic_overtext{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: red;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+	text-transform: uppercase
+}
+
+#conic_overtext p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: red;
+	text-align: left;
+	line-height: 1.5em;
+}*/
+
 .clearfix:after {   
-	visibility: hidden;   
-	display: block;   
-	font-size: 0;   
-	content: " ";  
-	clear: both;   
-	height: 0; 
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " ";
+	clear: both; 
+	height: 0;
 }
 /* --------------------------------- MEDIA QUERIES ----*/
 
@@ -546,7 +780,7 @@ footer{
 
 /* ----------------MQ IPAD 900px ABOUT TEXT ----*/
 #col1_about h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 	color: white;
@@ -562,7 +796,7 @@ footer{
 }
 
 #col2_abouttext p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 200;
 	color: white;
@@ -571,7 +805,7 @@ footer{
 }
 
 #expertise_title h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 	color: white;
@@ -591,7 +825,7 @@ footer{
 #info h4{
 	margin: 1.5em 0 0 0;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	color: #000;
@@ -601,7 +835,7 @@ footer{
 }
 
 #info p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #000;
@@ -692,7 +926,7 @@ label {
 		margin: 0 auto;
 	  	cursor: pointer;
 		padding: 1.5em 0 1em 0;
-		font-family: "Source Sans Pro" sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 1em;
 		font-weight: 400;
 		text-align: center;
@@ -718,7 +952,7 @@ label {
 		width: 100%;
 		height: 100px;
 		position: absolute;
-		font-family: "Source Sans Pro" sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 1em;
 		font-weight: 400;
 		text-align: center;
@@ -738,7 +972,7 @@ label {
 		position: absolute;
 		top: -120px;
 		background-color: #000;
-		font-family: "Source Sans Pro" sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 1em;
 		font-weight: 400;
 		color: white;
@@ -858,7 +1092,7 @@ ul a:hover, a:active {
 #info h4{
 	margin: 1.5em 0 0 0;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	color: #000;
@@ -868,7 +1102,7 @@ ul a:hover, a:active {
 }
 
 #info p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #000;
@@ -923,7 +1157,7 @@ ul a:hover, a:active {
 
 
 #col1_about h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 	color: white;
@@ -933,7 +1167,7 @@ ul a:hover, a:active {
 }
 
 #col2_abouttext p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 200;
 	color: white;
@@ -942,7 +1176,7 @@ ul a:hover, a:active {
 }
 
 #expertise_title h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 	color: white;
@@ -962,7 +1196,7 @@ ul a:hover, a:active {
 #info h4{
 	margin: 1.5em 0 0 0;
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	color: #000;
@@ -972,7 +1206,7 @@ ul a:hover, a:active {
 }
 
 #info p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	color: #000;
@@ -1042,7 +1276,7 @@ ul a:hover, a:active {
 }
 
 #col1_about h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 	color: white;
@@ -1052,7 +1286,7 @@ ul a:hover, a:active {
 }
 
 #col2_abouttext p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
 	font-weight: 200;
 	color: white;
@@ -1108,7 +1342,7 @@ ul a:hover, a:active {
 }
 
 #tagline h1{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 2.3em;
 	font-weight: 300;
 	color: #000;
@@ -1119,7 +1353,7 @@ ul a:hover, a:active {
 
 #services p{
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.1em;
 	font-weight: 400;
 	color: #000;
@@ -1143,7 +1377,7 @@ ul a:hover, a:active {
 
 #portfolio_button h3{
 	display: block;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: .85em;
 	font-weight: 400;
 	color: white;
@@ -1156,7 +1390,7 @@ ul a:hover, a:active {
 #portfolio_button a{
 	display: inline-block;
 	width: 100%;
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: .85em;
 	font-weight: 400;
 	text-align: center;
@@ -1199,7 +1433,7 @@ ul a:hover, a:active {
 }
 
 #col1_about h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2em;
 	font-weight: 300;
 	color: white;
@@ -1209,7 +1443,7 @@ ul a:hover, a:active {
 }
 
 #col2_abouttext p{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2em;
 	font-weight: 200;
 	color: white;
@@ -1224,7 +1458,7 @@ ul a:hover, a:active {
 }
 
 #expertise_title h2{
-	font-family: "Source Sans Pro" sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2em;
 	font-weight: 300;
 	color: white;
@@ -1240,5 +1474,4 @@ ul a:hover, a:active {
 	padding: 1em 1em 1em .75em;
 	display: block;
 }
-}
-	
+}	
