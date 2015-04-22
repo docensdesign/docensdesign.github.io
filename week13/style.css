@@ -1,4 +1,4 @@
-/* WEEK 12 Docens Design_v4*/
+/* WEEK 13 Docens Design_v5*/
 
 body{
 	font-size: 14px;
@@ -53,7 +53,7 @@ header{
 	color: white;
 	list-style-type: none;
 	overflow: hidden;
-	letter-spacing: 0.05em;	
+	letter-spacing: 0.15em;	
 	transform: translateY (-50%);
 }
 
@@ -131,7 +131,7 @@ header{
 	color: #000;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: -0.01em;
+	letter-spacing: 0.15em;
 	padding-bottom: 30px;	
 }
 
@@ -156,7 +156,7 @@ header{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0 auto;
-	letter-spacing: .05em;
+	letter-spacing: .15em;
 }
 
 #portfolio_button a:link{
@@ -501,63 +501,70 @@ footer{
 	margin-top: 3em;
 }
 
-#conic_content{
+#intro_conic{
+	width: 20%;
+	margin: 0 0 0 2em;
 	display: block;
-	width: 100%;
-	margin: 0 auto;
+	float: left;
 }
 
-#textbox{
-	width: 70%;
+#hr_intro{;
+	display: inline-block;
+	float: left;
+
+}
+
+#hr_intro hr{
+	width: 50px;
+	border-style: inset;
+	border-width: .25em;
+	border-color: black;
+	border-radius: .15em;
+}
+
+
+.intro_text{
 	display: block;
-	margin: 0 auto;
-	padding: .75em;
-	background-color: #000;
-}
-
-#conic_text{
-	width: 60%;
-	margin: 0;
-}
-
-#conic_text h2{
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
-	color: white;
-	text-align: left;
-	letter-spacing: .05em;
-	text-transform: uppercase
-}
-
-#conic_text p{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	color: white;
+	color: black;
 	text-align: left;
 	line-height: 1.5em;
+	margin-top: 2em;
+}
+
+.intro_text h5{
+	font-weight: 600;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+
+.intro_text p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 1em;
 }
 
 #conic_image{	
 	width: 70%;
-	max-width: 1280px;
+	max-width: 900px;
 	display: block;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
-#conic_cover1{
+.folio_image{
 	width: 100%;
 	display: block;
 }
 
-#conic_cover1 img{
+.folio_image img{
 	width: 100%;
 	display: block;
 	overflow: hidden;
 }
-
 
 /*---------------PORTFOLIO Section 2-----------*/
 
@@ -569,53 +576,45 @@ footer{
 	margin-top: 3em;
 }
 
-#lww_content{
+#intro_lww{
+	width: 20%;
+	margin: 0 0 0 2em;
 	display: block;
-	width: 100%;
-	margin: 0 auto;
-}
-
-#lww_text{
-	width: 60%;
-	margin: 0;
-}
-
-#lww_text h2{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	color: white;
-	text-align: left;
-	letter-spacing: .05em;
-	text-transform: uppercase
-}
-
-#lww_text p{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	color: white;
-	text-align: left;
-	line-height: 1.5em;
+	float: left;
 }
 
 #lww_image{	
 	width: 70%;
-	max-width: 1280px;
+	max-width: 900px;
 	display: block;
 	margin: 0 auto;
-}
-
-#lww_cover1{
-	width: 100%;
-	display: block;
-}
-
-#lww_cover1 img{
-	width: 100%;
-	display: block;
 	overflow: hidden;
 }
+
+#portfolio_sect3{
+	display: block;
+	width: 100%;
+	overflow: auto;
+	margin-top: 3em;
+}
+
+#intro_io{
+	width: 20%;
+	margin: 0 0 0 2em;
+	display: block;
+	float: left;
+}
+
+#io_image{	
+	width: 70%;
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
 /*--------------- CONIC IMAGE with HOVER TEXT-----------
 
 #box{
@@ -672,7 +671,7 @@ footer{
 	margin: 0 auto;
 	padding: 12em 5em 3em 3em;
 	text-decoration: none;
-}*/
+}
 
 /*#conic_overlay{
 
