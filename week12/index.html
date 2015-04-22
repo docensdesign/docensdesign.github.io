@@ -7,9 +7,23 @@
 	<title>Docens Design</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+<!--         add the smooth-scroll javascript -->
+	<script src="jquery.smooth-scroll.js"></script>
+<!--         call the smoothScroll function for the nav a elements -->
+	<script>
+	$(document).ready(function() {
+	$('ul.smoothnav a').smoothScroll();
+	});
+
+	</script>
 	<!--import font: Source Sans Pro-->
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
 
 <header class="clearfix">
@@ -17,7 +31,7 @@
 <img src="images/docens_logo_white2.png" alt="Docens logo black text" title="Docens Logo"></div>
 
 <nav class="clearfix" id="main_nav">
-	<ul>
+	<ul class="smoothnav">
    			<li><a href="#contact">contact</a></li>
    			<li><a href="portfolio.html">portfolio</a></li>
    			<li><a href="#expertise">expertise</a></li>

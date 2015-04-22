@@ -26,7 +26,6 @@ header{
 #logo_area img{
 	width: 100%;
 	position: relative;
-	transform: translateX (-50%);
 }
 
 #main_nav{
@@ -65,7 +64,7 @@ header{
 	text-align: center;
 }
 
-#main_nav ul a:link, a:visited {
+#main_nav ul a:link, #main_nav a:visited {
 		display: inline-block;
 		font-weight: 400;
 		color: white;
@@ -75,9 +74,14 @@ header{
 		width: 120px;
 		height: 3em;
 		padding: 1em;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
 }
 
-#main_nav ul a:hover, a:active {
+#main_nav ul a:hover, #main_nav a:active {
 		display: inline-block;
 		font-weight: 400;
 		color: black;
@@ -155,7 +159,7 @@ header{
 	letter-spacing: .05em;
 }
 
-#portfolio_button a{
+#portfolio_button a:link{
 	display: inline-block;
 	width: 100%;
 	font-family: "Source Sans Pro", sans-serif;
@@ -168,6 +172,11 @@ header{
 	letter-spacing: .05em;
 	color: #ffffff;
 	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 }
 
 #portfolio_button a:hover, a:active {
@@ -532,6 +541,7 @@ footer{
 
 #conic_image{	
 	width: 70%;
+	max-width: 1280px;
 	display: block;
 	margin: 0 auto;
 	overflow: hidden;
