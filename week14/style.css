@@ -632,112 +632,7 @@ footer{
 	height: 0;
 }
 
-/*--------------- CONIC IMAGE with HOVER TEXT-----------
-
-#box{
-	height: 400px;
-	width: 900px;
-	margin: 0 auto;
-	display: block;
-	position: absolute;
-}
-
-#con1{
-	min-width: 100%;
-	min-height: 100%;
-	background: url("images/2.jpg"); no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin: 0 auto;
-	display: block;
-	overflow: hidden;
-	position: relative;
-}
-
-#con1:hover{
-	background-color:rgba(61,122,247,.85);
-	margin: 0 auto;
-	display: block;
-	-webkit-transition: opacity .25s ease;
-	-moz-transition: opacity .25s ease;
-}
-
-#con1 a:hover{
-	text-decoration: none;
-}
-
-#con1 p{
-	display: none;
-}
-
-#con1:hover p{
-	display: block;
-	width: 900px;
-	height: 400px;
-	background-color:rgba(61,122,247,.85);
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.5em;
-	font-weight: 300;
-	color: white;
-	text-align: left;
-	line-height: 1.5em;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin: 0 auto;
-	padding: 12em 5em 3em 3em;
-	text-decoration: none;
-}
-
-/*#conic_overlay{
-
-	background: rgba(61,122,247,.5);
-	text-align: left;
-	padding: 10px auto;
-	opacity: 0;
-	-webkit-transition: opacity .25s ease;
-	-moz-transition: opacity .25s ease;
-	z-index: 1;
-}
-
-#conic_image:hover #conic_overlay{
-	background: rgba(61,122,247,.5);
-	opacity: 1;
-	width: 797px;
-	height: 501px;
-	text-align: left;
-	padding: 2em auto;
-	opacity: 0;
-	-webkit-transition: opacity .25s ease;
-	-moz-transition: opacity .25s ease;
-	z-index: 1;
-}
-
-#conic_overtext{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.5em;
-	font-weight: 300;
-	color: red;
-	text-align: left;
-	line-height: 1.5em;
-	letter-spacing: .05em;
-	text-transform: uppercase
-}
-
-#conic_overtext p{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.5em;
-	font-weight: 300;
-	color: red;
-	text-align: left;
-	line-height: 1.5em;
-}*/
-
-
-/* --------------------------------- MEDIA QUERIES ----*/
-
-/* -------------------- MEDIA QUERY IPHONE 6+ ----*/
+/* ----------------------------------------------------------------- MEDIA QUERIES ----*/
 
 @media screen and (max-width:1080px){
 
@@ -751,8 +646,6 @@ footer{
 }
 }
 
-/* -------------------- MEDIA QUERY IPHONE 6+ ----*/
-
 @media screen and (max-width:1021px){
 
 #col1 {
@@ -764,6 +657,7 @@ footer{
 	position: absolute;
 }
 }
+
 /* -------------------- MEDIA QUERY GALAXY 900px ----*/
 @media screen and (max-width:900px){
 
@@ -850,6 +744,10 @@ footer{
 	display: none !important;
 }
 
+/*#main_nav nav{
+	display: none !important;
+}
+
 #main_nav ul{
 	display: none !important;
 }
@@ -864,29 +762,9 @@ footer{
 
 #main_nav ul a:hover, a:active {
 	display: none !important;
-}
+}*/
 
 #logo_area{
-	display: none !important;
-}
-
-footer{
-	display: none !important;
-}
-
-#contact_wrapper{
-	display: none !important;
-}
-
-#email_contact a{
-	display: none !important;
-}
-
-#email_contact a:hover, a:active {
-	display: none !important;
-}
-
-#email_contact a:link a:visited{
 	display: none !important;
 }
 
