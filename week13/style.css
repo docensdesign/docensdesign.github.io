@@ -482,6 +482,18 @@ footer{
 	display: none;
 }
 
+#portfolio_mq-sect1{
+	display: none;
+}
+
+#portfolio_mq-sect2{
+	display: none;
+}
+
+#portfolio_mq-sect3{
+	display: none;
+}
+
 /*---------------PORTFOLIO PAGE 2 ----------------------------PG2---*/
 
 /*---------------PORTFOLIO Section 1-----------*/
@@ -489,7 +501,6 @@ footer{
 #portfolio_pagewrapper{
 	display: block;
 	width: 100%;
-	height: auto;
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, .05);
 }
@@ -521,7 +532,6 @@ footer{
 	border-color: black;
 	border-radius: .15em;
 }
-
 
 .intro_text{
 	display: block;
@@ -613,7 +623,14 @@ footer{
 	overflow: hidden;
 }
 
-
+.clearfix:after {   
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " ";
+	clear: both; 
+	height: 0;
+}
 
 /*--------------- CONIC IMAGE with HOVER TEXT-----------
 
@@ -717,27 +734,12 @@ footer{
 	line-height: 1.5em;
 }*/
 
-.clearfix:after {   
-	visibility: hidden; 
-	display: block; 
-	font-size: 0; 
-	content: " ";
-	clear: both; 
-	height: 0;
-}
+
 /* --------------------------------- MEDIA QUERIES ----*/
 
 /* -------------------- MEDIA QUERY IPHONE 6+ ----*/
 
 @media screen and (max-width:1080px){
-
-#mainbody{
-	/*border: 10px blue solid;
-	background-color: green;*/
-	overflow: auto;
-	width: 100%;
-	display: block;
-}
 
 #col1 {
 	/*background-color: #05b3fc;*/
@@ -753,19 +755,6 @@ footer{
 
 @media screen and (max-width:1021px){
 
-#logo_area{
-	width: 150px;
-	margin: 1.5em 0 0 2em;
-	display: block;
-	float: left;
-}
-
-#logo_area img{
-	width: 100%;
-	position: relative;
-	transform: translateX (-50%);
-}
-
 #col1 {
 	/*background-color: #05b3fc;*/
 	padding: 0;
@@ -774,7 +763,6 @@ footer{
 	display: block;
 	position: absolute;
 }
-
 }
 /* -------------------- MEDIA QUERY GALAXY 900px ----*/
 @media screen and (max-width:900px){
@@ -789,6 +777,7 @@ footer{
 }
 
 /* ----------------MQ IPAD 900px ABOUT TEXT ----*/
+
 #col1_about h2{
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.5em;
@@ -901,6 +890,18 @@ footer{
 	display: none !important;
 }
 
+#portfolio_sect1{
+	display: none !important;
+}
+
+#portfolio_sect2{
+	display: none !important;
+}
+
+#portfolio_sect3{
+	display: none !important;
+}
+
 #logo_mobile{
 	width: 100%;
 	margin: 0 auto;
@@ -927,6 +928,7 @@ footer{
 	position: fixed;
 	bottom:0;
 	background-color: #000;
+	z-index: 1;
 }
 
 label {
@@ -945,14 +947,12 @@ label {
 		list-style-type: none;
 		letter-spacing: 0.05em;	
 		line-height: 20px;
-		z-index: 1;
 		overflow: hidden;
 	}
 
 #menu_toggle{
 		display: none;
 	}
-
 #menu_list{
 		display: none;
 	}
@@ -981,7 +981,7 @@ label {
 		height: 120px;
 		position: absolute;
 		top: -120px;
-		background-color: #000;
+		background-color: black;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 1em;
 		font-weight: 400;
@@ -1003,28 +1003,34 @@ ul li{
 		padding: 0;
 }
 
-ul a:link, a:visited {
+ul li a:link, a:visited {
 		display: inline-block;
 		margin: 0 auto;
 		font-weight: 400;
 		color: white;
+		background-color: black;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		width: 100%;
 		height: 30px;
 		padding: .5em;
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
 }
 
-ul a:hover, a:active {
+ul li a:hover, a:active {
 		display: inline-block;
 		margin: 0 auto;
 		font-weight: 400;
-		color: black;
+		color: pink;
+		background-color: white;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		background-color: white;
 		width: 100%;
 		height: 30px;
 		padding: .5em;
@@ -1118,6 +1124,110 @@ ul a:hover, a:active {
 	color: #000;
 	text-align: left;
 	line-height: 1.5em;
+}
+
+#portfolio_mq-sect1{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 3em;
+
+}
+
+#conic_image{	
+	width: 100%;
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#intro_conic{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding: 1em;
+	float: none;
+}
+
+#hr_intro{
+	display: inline-block;
+	margin: 0 auto;
+	float: none;
+}
+
+#hr_intro hr{
+	width: 20px;
+	border-style: inset;
+	border-width: .15em;
+	border-color: black;
+	border-radius: .15em;
+}
+
+#portfolio_mq-sect2{
+	display: block;
+	width: 100%;
+	overflow: auto;
+	margin-top: 3em;
+}
+
+#intro_lww{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding: 1em;
+	float: none;
+}
+
+#lww_image{	
+	width: 100%;
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#portfolio_mq-sect3{
+	display: block;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	margin-top: 3em;
+}
+
+#intro_io{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding: 1em;
+	float: none;
+}
+
+#io_image{	
+	width: 100%;
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.folio_image{
+	width: 100%;
+	display: block;
+}
+
+.folio_image img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.intro_text{
+	margin-top: .5em;
+}
+
+.intro_text p{
+	margin-top: 0;
 }
 }
 
@@ -1243,6 +1353,7 @@ ul a:hover, a:active {
 	float: left;
 	display: inline-block;
 }
+
 }
 
 /* -------------------- MEDIA QUERY IPHONE 6+ 414px ----*/
@@ -1484,4 +1595,5 @@ ul a:hover, a:active {
 	padding: 1em 1em 1em .75em;
 	display: block;
 }
+
 }	
