@@ -17,8 +17,8 @@ header{
 }
 
 #logo_area{
-	width: 150px;
-	margin: 1.5em 0 0 2em;
+	width: 8em;
+	margin: 2em 0 0 2em;
 	display: block;
 	float: left;
 }
@@ -393,7 +393,7 @@ footer{
 }
 
 #contact{
-	width: 40%;
+	width: 60%;
 	height: 115px;
 	margin: 0 auto;
 	padding: 2em;
@@ -410,7 +410,7 @@ footer{
 	text-align: center;
 	line-height: 1.5em;
 	text-transform: uppercase;
-	letter-spacing: .05em;
+	letter-spacing: .15em;
 	clear: both;
 }
 
@@ -519,16 +519,15 @@ footer{
 	float: left;
 }
 
-#hr_intro{;
+#hr_intro{
 	display: inline-block;
 	float: left;
-
 }
 
 #hr_intro hr{
-	width: 50px;
+	width: 20px;
 	border-style: inset;
-	border-width: .25em;
+	border-width: .15em;
 	border-color: black;
 	border-radius: .15em;
 }
@@ -536,25 +535,25 @@ footer{
 .intro_text{
 	display: block;
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1em;
-	font-weight: 400;
+	margin-top: .5em;
 	color: black;
 	text-align: left;
-	line-height: 1.5em;
-	margin-top: 2em;
+	line-height: 1.75em;
 }
 
 .intro_text h5{
-	font-weight: 600;
-	letter-spacing: .15em;
+	font-size: 2em;
+	font-weight: 300;
+	margin-top: .4em;
 	text-transform: uppercase;
 }
 
 .intro_text p{
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
-	font-weight: 400;
-	margin-top: 1em;
+	font-weight: 300;
+	margin-top: 2em;
+	line-height: 1.5em;
 }
 
 #conic_image{	
@@ -606,6 +605,7 @@ footer{
 	width: 100%;
 	overflow: auto;
 	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 #intro_io{
@@ -632,7 +632,7 @@ footer{
 	height: 0;
 }
 
-/* ----------------------------------------------------------------- MEDIA QUERIES ----*/
+/* ----------------------------------------- MEDIA QUERIES ----*/
 
 @media screen and (max-width:1080px){
 
@@ -768,6 +768,10 @@ footer{
 	display: none !important;
 }
 
+#hr_intro{
+	display: none !important;
+}
+
 #portfolio_sect1{
 	display: none !important;
 }
@@ -823,7 +827,7 @@ label {
 		text-transform: uppercase;
 		color: white;
 		list-style-type: none;
-		letter-spacing: 0.05em;	
+		letter-spacing: 0.15em;	
 		line-height: 20px;
 		overflow: hidden;
 	}
@@ -860,7 +864,8 @@ label {
 		height: 120px;
 		position: absolute;
 		top: -120px;
-		background-color: black;
+		background-color: #000;
+		letter-spacing: 0.15em;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 1em;
 		font-weight: 400;
@@ -893,7 +898,7 @@ ul li a:link, a:visited {
 		margin: 0 auto;
 		font-weight: 400;
 		color: white;
-		background-color: black;
+		background-color: #000;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -911,7 +916,7 @@ ul li a:hover, a:active {
 		display: block;
 		margin: 0 auto;
 		font-weight: 400;
-		color: pink;
+		color: #000;
 		background-color: white;
 		text-align: center;
 		text-decoration: none;
@@ -1011,6 +1016,19 @@ ul li a:hover, a:active {
 	line-height: 1.5em;
 }
 
+/*#hr_intro{
+	float: none;
+}
+
+#hr_intro hr{
+	width: 50px;
+	border-style: inset;
+	border-width: .12em;
+	border-color: black;
+	border-radius: .15em;
+}*/
+
+
 #portfolio_mq-sect1{
 	display: block;
 	width: 100%;
@@ -1033,20 +1051,6 @@ ul li a:hover, a:active {
 	display: block;
 	padding: 1em;
 	float: none;
-}
-
-#hr_intro{
-	display: inline-block;
-	margin: 0 auto;
-	float: none;
-}
-
-#hr_intro hr{
-	width: 20px;
-	border-style: inset;
-	border-width: .15em;
-	border-color: black;
-	border-radius: .15em;
 }
 
 #portfolio_mq-sect2{
@@ -1075,9 +1079,9 @@ ul li a:hover, a:active {
 #portfolio_mq-sect3{
 	display: block;
 	width: 100%;
-	height: 100vh;
 	overflow: auto;
 	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 #intro_io{
@@ -1096,6 +1100,22 @@ ul li a:hover, a:active {
 	overflow: hidden;
 }
 
+/*Footer-----*/
+
+footer{
+	width: 100%;
+	background-color: rgb(61, 122, 247);
+	display: block;
+	height: 180px;
+}
+
+#contact_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+
 .folio_image{
 	width: 100%;
 	display: block;
@@ -1108,11 +1128,30 @@ ul li a:hover, a:active {
 }
 
 .intro_text{
-	margin-top: .5em;
+	display: block;
+	font-family: "Source Sans Pro", sans-serif;
+	width: 80%;
+	margin-top: 0;
+	padding: 0;
+	color: black;
+	text-align: left;
+	line-height: 1.75em;
+}
+
+.intro_text h5{
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-top: 0;
+	letter-spacing: 0;
+	text-transform: uppercase;
 }
 
 .intro_text p{
-	margin-top: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	margin-top: .75em;
+	line-height: 1.5em;
 }
 }
 
