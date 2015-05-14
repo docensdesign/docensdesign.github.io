@@ -1,4 +1,4 @@
-/* WEEK 13 Docens Design_v5*/
+/* WEEK 15 Docens Design_v7*/
 
 body{
 	display: block;
@@ -29,14 +29,12 @@ header{
 }
 
 #main_nav{
-	display: block;
 	width: 500px;
 	margin: 2.5em 0 0 0;
 	float: right;
 }
 
 #main_nav nav{
-	display: block;
 	float: right;
 }
 
@@ -50,7 +48,7 @@ header{
 	letter-spacing: 0.05em;
 	color: white;
 	list-style-type: none;
-	overflow: hidden;	
+	overflow: hidden;
 	/*transform: translateY (-50%);*/
 }
 
@@ -59,23 +57,23 @@ header{
 }
 
 #main_nav ul a:link, #main_nav a:visited{
-		display: inline-block;
-		width: 120px;
-		height: 3em;
-		padding: 1em;
-		color: white;
-		text-decoration: none;
-		-o-transition:.5s;
-		-ms-transition:.5s;
-		-moz-transition:.5s;
-		-webkit-transition:.5s;
-		transition:.5s;
+	display: inline-block;
+	width: 120px;
+	height: 3em;
+	padding: 1em;
+	color: white;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 }
 
 #main_nav ul a:hover, #main_nav a:active{
-		display: inline-block;
-		color: black;
-		background-color: white;
+	display: inline-block;
+	color: black;
+	background-color: white;
 }
 
 /* ------------------ MAINBODY Columns: Tagline and Squares ----*/
@@ -383,6 +381,74 @@ footer{
 	text-decoration: none;
 }
 
+/*---------------PORTFOLIO PAGE----------------------------PG2---*/
+
+#portfolio_pagewrapper{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.portfolio_section{
+	display: block;
+	width: 100%;
+	margin-top: 3em;
+	overflow: auto;
+}
+
+.intro_section{
+	display: block;
+	width: 20%;
+	margin-left: 2em;
+	float: left;
+}
+
+.intro_text{
+	display: block;
+	margin-left: 2em;
+}
+
+.intro_text h5{
+	font: 400 1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.intro_text p{
+	margin-top: 1em;
+	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+}
+
+.image_box{	
+	width: 70%;
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.folio_image{
+	width: 100%;
+	display: block;
+}
+
+.folio_image img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.clearfix:after {   
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " ";
+	clear: both; 
+	height: 0;
+}
+
 #mobile_menu{
 	display: none;
 }
@@ -415,94 +481,11 @@ footer{
 	display: none;
 }
 
-/*---------------PORTFOLIO PAGE----------------------------PG2---*/
-
-#portfolio_pagewrapper{
-	display: block;
-	width: 100%;
-	overflow: hidden;
-	background-color: rgba(0, 0, 0, .05);
-}
-
-.portfolio_section{
-	display: block;
-	width: 100%;
-	margin-top: 3em;
-	overflow: auto;
-}
-
-.intro_section{
-	display: block;
-	width: 20%;
-	margin-left: 2em;
-	float: left;
-}
-
-.intro_text{
-	display: block;
-	margin-left: 2em;
-}
-
-.intro_text h5{
-	font: 300 2em "Source Sans Pro", sans-serif;
-	color: #000;
-	text-transform: uppercase;
-}
-
-.intro_text p{
-	margin-top: 2em;
-	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
-	color: #000;
-}
-
-.image_box{	
-	width: 70%;
-	max-width: 900px;
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-.folio_image{
-	width: 100%;
-	display: block;
-}
-
-.folio_image img{
-	width: 100%;
-	display: block;
-	overflow: hidden;
-}
-
-#portfolio_sect2{
-	display: block;
-	width: 100%;
-	overflow: auto;
-	margin-top: 3em;
-}
-
-#portfolio_sect3{
-	display: block;
-	width: 100%;
-	overflow: auto;
-	margin-top: 3em;
-	margin-bottom: 3em;
-}
-
-.clearfix:after {   
-	visibility: hidden; 
-	display: block; 
-	font-size: 0; 
-	content: " ";
-	clear: both; 
-	height: 0;
-}
-
 /* ----------------------------------------- MEDIA QUERIES ----*/
 
 @media screen and (max-width:1080px){
 
-#col1 {
+#col1{
 	/*background-color: #05b3fc;*/
 	padding: 0;
 	margin: 8em 0 0 8em;
@@ -514,7 +497,7 @@ footer{
 
 @media screen and (max-width:1021px){
 
-#col1 {
+#col1{
 	/*background-color: #05b3fc;*/
 	padding: 0;
 	margin: 8em 0 0 8em;
@@ -527,7 +510,7 @@ footer{
 /* -------------------- MEDIA QUERY GALAXY 900px ----*/
 @media screen and (max-width:900px){
 
-#col1 {
+#col1{
 	/*background-color: #05b3fc;*/
 	padding: 0;
 	margin: 8em 0 0 8em;
@@ -610,43 +593,7 @@ footer{
 	display: none !important;
 }
 
-/*#main_nav nav{
-	display: none !important;
-}
-
-#main_nav ul{
-	display: none !important;
-}
-
-#main_nav ul li{
-	display: none !important;
-}
-
-#main_nav ul a:link, a:visited {
-	display: none !important;
-}
-
-#main_nav ul a:hover, a:active {
-	display: none !important;
-}*/
-
 #logo_area{
-	display: none !important;
-}
-
-#hr_intro{
-	display: none !important;
-}
-
-#portfolio_sect1{
-	display: none !important;
-}
-
-#portfolio_sect2{
-	display: none !important;
-}
-
-#portfolio_sect3{
 	display: none !important;
 }
 
@@ -679,24 +626,24 @@ footer{
 	z-index: 100;
 }
 
-label {
-		display: block;
-		width: 100%;
-		height: 70px;
-		margin: 0 auto;
-	  	cursor: pointer;
-		padding: 1.5em 0 1em 0;
-		font-family: "Source Sans Pro", sans-serif;
-		font-size: 1em;
-		font-weight: 400;
-		text-align: center;
-		text-transform: uppercase;
-		color: white;
-		list-style-type: none;
-		letter-spacing: 0.15em;	
-		line-height: 20px;
-		overflow: hidden;
-	}
+label{
+	display: block;
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	cursor: pointer;
+	padding: 1.5em 0 1em 0;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	list-style-type: none;
+	letter-spacing: 0.15em;	
+	line-height: 20px;
+	overflow: hidden;
+}
 
 #menu_toggle{
 		display: none;
@@ -705,22 +652,6 @@ label {
 #menu_list{
 		display: none;
 	}
-
-/*#menu_toggle:checked{
-		display: block;
-		width: 100%;
-		height: 100px;
-		position: absolute;
-		font-family: "Source Sans Pro", sans-serif;
-		font-size: 1em;
-		font-weight: 400;
-		text-align: center;
-		text-transform: uppercase;
-		text-decoration: none;
-		color: white;
-		list-style-type: none;
-		letter-spacing: 0.05em;	
-}*/
 
 #menu_toggle:checked + #menu_list{
 		display: block;
@@ -738,7 +669,6 @@ label {
 		color: white;
 		text-align: center;
 		z-index:100;
-		/*line-height: 10px;*/
 	}
 
 ul li{
@@ -882,97 +812,12 @@ ul li a:hover, a:active {
 	line-height: 1.5em;
 }
 
-/*#hr_intro{
-	float: none;
-}
-
-#hr_intro hr{
-	width: 50px;
-	border-style: inset;
-	border-width: .12em;
-	border-color: black;
-	border-radius: .15em;
-}*/
-
-
-#portfolio_mq-sect1{
-	display: block;
-	width: 100%;
-	overflow: hidden;
-	margin-top: 3em;
-
-}
-
-#conic_image{	
-	width: 100%;
-	max-width: 900px;
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-#intro_conic{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-	padding: 1em;
-	float: none;
-}
-
-#portfolio_mq-sect2{
-	display: block;
-	width: 100%;
-	overflow: auto;
-	margin-top: 3em;
-}
-
-#intro_lww{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-	padding: 1em;
-	float: none;
-}
-
-#lww_image{	
-	width: 100%;
-	max-width: 900px;
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-#portfolio_mq-sect3{
-	display: block;
-	width: 100%;
-	overflow: auto;
-	margin-top: 3em;
-	margin-bottom: 3em;
-}
-
-#intro_io{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-	padding: 1em;
-	float: none;
-}
-
-#io_image{	
-	width: 100%;
-	max-width: 900px;
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-/*Footer-----*/
-
+/*Footer------------------------------*/
 footer{
 	width: 100%;
 	background-color: rgb(61, 122, 247);
 	display: block;
-	height: 180px;
+	height: 130px;
 }
 
 #contact_wrapper{
@@ -982,42 +827,37 @@ footer{
 	display: block;
 }
 
-.folio_image{
-	width: 100%;
-	display: block;
+/* PORTFOLIO FOIO PAGE CLASSES------------------------------*/
+.portfolio_section{
+	margin-top: 2em;
 }
 
-.folio_image img{
-	width: 100%;
-	display: block;
-	overflow: hidden;
+.intro_section{
+	width: 70%;
+	margin-left: 2.5em;
+	float: none;
 }
 
 .intro_text{
-	display: block;
-	font-family: "Source Sans Pro", sans-serif;
-	width: 80%;
-	margin-top: 0;
-	padding: 0;
-	color: black;
-	text-align: left;
-	line-height: 1.75em;
+	margin-left: 0;
 }
 
 .intro_text h5{
-	font-size: 1.25em;
-	font-weight: 400;
-	margin-top: 0;
-	letter-spacing: 0;
-	text-transform: uppercase;
+	font: 400 1.2em "Source Sans Pro", sans-serif;
 }
 
 .intro_text p{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1em;
-	font-weight: 300;
-	margin-top: .75em;
-	line-height: 1.5em;
+	margin: .5em 0 1em;
+}
+
+.image_box{	
+	width: 90%;
+	max-width: 600px;
+	border-bottom: 1px solid #000;
+}
+
+.folio_image{
+	margin-bottom: 1em;
 }
 }
 
@@ -1389,5 +1229,4 @@ footer{
 	padding: 1em 1em 1em .75em;
 	display: block;
 }
-
 }	
