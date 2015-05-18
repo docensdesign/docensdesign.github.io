@@ -9,7 +9,6 @@ body{
 /* ---- HEADER: Logo and Nav ----*/
 
 header{
-	display: block;
 	margin: 0 auto;
 	width: 100%;
 	height: 5.5em;
@@ -17,7 +16,6 @@ header{
 }
 
 #logo_area{
-	display: block;
 	width: 8em;
 	margin: 1.75em 0 0 4em;
 	float: left;
@@ -38,8 +36,7 @@ header{
 	float: right;
 }
 
-#main_nav ul {
-	display: block;
+#main_nav ul{
 	float: right;
 	width: 500px;
 	font: 400 1em "Source Sans Pro", sans-serif;
@@ -79,20 +76,17 @@ header{
 /* ------------------ MAINBODY Columns: Tagline and Squares ----*/
 
 #mainbody{
-	display: block;
 	width: 100%;
 	overflow: auto;
 }
 
-#col1 {
-	display: block;
+#col1{
 	width: 30%;
 	margin: 10em;
 	position: absolute;
 }
 
 #tagline h1{
-	display: block;
 	font: 200 3em "Source Sans Pro", sans-serif;
 	color: #000;
 	text-align: center;
@@ -100,7 +94,6 @@ header{
 }
 
 #services p{
-	display: block;
 	margin: 1em 0 2em 0;	
 	font: 400 1.15em "Source Sans Pro", sans-serif;
 	color: #000;
@@ -110,19 +103,16 @@ header{
 }
 
 #portfolio{
-	display: block;
 	width: 100%;
 }
 
 #portfolio_button{
-	display: block;
 	width: 150px;
 	margin: 0 auto;
 	background-color: rgb(61, 122, 247);
 }
 
 #portfolio_button h3{
-	display: block;
 	margin: 0 auto;
 	padding: 1em;
 	font: 400 .95em "Source Sans Pro", sans-serif;
@@ -133,7 +123,6 @@ header{
 }
 
 #portfolio_button a:link{
-	display: inline-block;
 	width: 100%;
 	font: 400 .95em "Source Sans Pro", sans-serif;
 	color: #fff;
@@ -164,7 +153,6 @@ header{
 }
 
 #blue_square{
-	display: block;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -183,7 +171,6 @@ header{
 }
 
 #black_square{
-	display: block;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -231,14 +218,12 @@ header{
 /* ---- WOW IMAGE ----*/
 
 #wow_image{
-	display: block;
 	width: 100%;
 	height: 15em;
 	overflow: hidden;
 }
 
 #wow{
-	display: block;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -270,14 +255,12 @@ header{
 }
 
 #expert_wrapper{
-	display: block;
 	width: 100%;
 	margin: 0 auto;
 	background-color: white;
 }
 
 #expert_icons{
-	display: block;
 	width: 50%;
 	margin: 0 auto;
 	padding-top: 6em;
@@ -285,7 +268,6 @@ header{
 }
 
 .icon_info{
-	display: inline-block;
 	width: 100%;
 	margin-bottom: 4em;
 }
@@ -298,7 +280,6 @@ header{
 }
 
 .icon_type{
-	display: inline-block;
 	width: 4em;
 }
 
@@ -316,7 +297,6 @@ header{
 /* ---- FOOTER ----*/
 
 footer{
-	display: block;
 	width: 100%;
 	background-color: #000;
 }
@@ -364,28 +344,34 @@ footer{
 /*---------------PORTFOLIO PAGE----------------------------PG2---*/
 
 #portfolio_pagewrapper{
-	display: block;
 	width: 100%;
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, .05);
 }
 
-.portfolio_section{
+iframe{
 	display: block;
+}
+
+#video{
+	width: 100%;
+	max-width: 1020px;
+	margin-bottom: 3em;
+}
+
+.portfolio_section{
 	width: 100%;
 	margin-top: 3em;
 	overflow: auto;
 }
 
 .intro_section{
-	display: block;
 	width: 20%;
 	margin-left: 2em;
 	float: left;
 }
 
 .intro_text{
-	display: block;
 	margin-left: 2em;
 }
 
@@ -404,14 +390,12 @@ footer{
 .image_box{	
 	width: 70%;
 	max-width: 900px;
-	display: block;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 .folio_image{
 	width: 100%;
-	display: block;
 }
 
 .folio_image img{
@@ -518,7 +502,6 @@ header{
 #logo_box{
 	width: 10em;
 	margin: 0 auto;
-	display: block;
 	padding: 1em;
 }
 
@@ -576,7 +559,6 @@ ul li{
 }
 
 ul li a{
-	display: block;
 	width: 100%;
 	height: 2em;
 	font: 400 1em "Source Sans Pro", sans-serif;
@@ -674,6 +656,11 @@ footer{
 }
 
 /* PORTFOLIO FOIO PAGE CLASSES------------------------------*/
+
+#video{
+	margin-bottom: 1em;
+}
+
 .portfolio_section{
 	margin-top: 2em;
 }
@@ -707,8 +694,6 @@ footer{
 
 #col1 {
 	margin: 14.5em 0 2em;
-	/*width: 100%;
-	z-index: 1;*/
 }
 
 #tagline h1{
@@ -736,9 +721,6 @@ footer{
 #square_wrapper{
 	width: 60%;
 	height: 450px;
-	/*margin: 0 auto;
-	float: none;
-	position: relative;*/
 }
 
 #col1_about{
