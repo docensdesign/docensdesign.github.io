@@ -365,6 +365,12 @@ iframe{
 	overflow: auto;
 }
 
+.portfolio_section2{
+	width: 100%;
+	margin: 3em 0 3em 0;
+	overflow: auto;
+}
+
 .intro_section{
 	width: 20%;
 	margin-left: 2em;
@@ -681,8 +687,7 @@ footer{
 
 .image_box{	
 	width: 90%;
-	max-width: 600px;
-	/*border-bottom: 1px solid #000;*/
+	/*max-width: 600px;*/
 }
 
 .folio_image{
