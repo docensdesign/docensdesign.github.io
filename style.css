@@ -274,7 +274,7 @@ header{
 
 .icon_img{
 	width: 4em;
-	height: 6em;
+	height: 9em;
 	margin-right: 2em;
 	float: left;
 }
@@ -466,6 +466,10 @@ iframe{
 	margin: 8em 0 0 8em;
 	width: 40%;
 }
+
+#expert_icons{
+	width: 70%;
+}
 }
 
 /* -------------------- MEDIA QUERY GALAXY / iPad 900px ----*/
@@ -482,6 +486,10 @@ iframe{
 
 #wow_image{
 	height: 8em;
+}
+
+#expert_icons{
+	width: 80%;
 }
 }
 
@@ -631,8 +639,11 @@ ul li a:active {
 }
 
 #expert_icons{
-	width: 60%;
-	/*height: 500px;*/
+	width: 90%;
+}
+
+.icon_img{
+	height: 7em;
 }
 
 #info h4{
@@ -760,15 +771,23 @@ footer{
 
 #expert_icons{
 	width: 80%;
-	padding-top: 4em;
+	padding-top: 2em;
+	padding-bottom: 0;
 }
 
 .icon_info{
-	margin-bottom: 2em;
+	height: 10em;
+	margin-bottom: 1em;
 }
 
 .icon_img{
-	height: 8em;
+	width: 2em;
+	height: 10em;
+	margin-right: 1em;
+}
+
+.icon_type{
+	width: 2em;
 }
 }
 
