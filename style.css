@@ -680,11 +680,11 @@ footer{
 
 .portfolio_section{
 	margin-top: 2em;
+	overflow: hidden;
 }
 
 .intro_section{
-	width: 70%;
-	margin-left: 2.5em;
+	width: 90%;
 	float: none;
 }
 
