@@ -1,9 +1,10 @@
-/* WEEK 15 Docens Design_v7*/
+/* Revised 11/08/17*/
 
 body{
 	display: block;
 	font-size: 14px;
 	height: 100%;
+	background-color: #000;
 }
 
 /* ---- HEADER: Logo and Nav ----*/
@@ -11,13 +12,13 @@ body{
 header{
 	margin: 0 auto;
 	width: 100%;
-	height: 5.5em;
+	height: 20em;
 	background-color: #000;
 }
 
 #logo_area{
-	width: 8em;
-	margin: 1.75em 0 0 4em;
+	width: 12em;
+	margin: 4em;
 	float: left;
 }
 
@@ -188,7 +189,7 @@ header{
 
 #about{
 	width: 100%;
-	background-color: rgb(61, 122, 247);
+	/* -- background-color: rgb(61, 122, 247); --*/
 	overflow: auto;
 }
 
@@ -212,6 +213,7 @@ header{
 
 #col2_abouttext p{
 	font: 200 2em/1.5em "Source Sans Pro", sans-serif;
+	letter-spacing: .01em;
 	color: #fff;
 }
 
@@ -306,23 +308,23 @@ footer{
 }
 
 #contact{
-	margin: 0 auto;
-	padding: 2em;
+	margin: 4em;
+	/*padding: 1em;*/
 }
 
 #contact_heading h3{
-	font: 400 .85em "Source Sans Pro", sans-serif;
+	font: 400 1em "Source Sans Pro", sans-serif;
 	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
+	text-align: left;
+	/* text-transform: uppercase; */
 	letter-spacing: .05em;
 }
 
 #email_contact p{
 	padding-top: .5em;
-	font: 300 1em "Source Sans Pro", sans-serif;
+	font: 200 1em "Source Sans Pro", sans-serif;
 	color: #fff;
-	text-align: center;
+	text-align: left;
 	text-transform: lowercase;
 	letter-spacing: .05em;
 }
@@ -453,7 +455,7 @@ iframe{
 
 /* ----------------------------------------- MEDIA QUERIES ----*/
 
-@media screen and (max-width:1080px){
+/*@media screen and (max-width:1080px){
 
 #col1{
 	margin: 8em 0 0 8em;
@@ -470,12 +472,12 @@ iframe{
 #expert_icons{
 	width: 70%;
 }
-}
+}*/
 
 /* -------------------- MEDIA QUERY GALAXY / iPad 900px ----*/
-@media screen and (max-width:900px){
+/*@media screen and (max-width:900px){
 
-#col1{
+/*#col1{
 	margin: 4.5em 4em 0 4em;
 	width: 40%;
 }
@@ -491,7 +493,7 @@ iframe{
 #expert_icons{
 	width: 80%;
 }
-}
+}*/
 
 /* -------------------- MEDIA QUERY IPAD 1–MINI 768px ----*/
 @media screen and (max-width:768px){
@@ -501,6 +503,10 @@ iframe{
 }
 
 #logo_area{
+	display: none !important;
+}
+
+#col1_about{
 	display: none !important;
 }
 
@@ -514,16 +520,18 @@ header{
 }
 
 #logo_box{
-	width: 10em;
-	margin: 0 auto;
-	padding: 1em;
+	width: 8em;
+	/*height: 4em;*/
+	margin-left: 4em;
+	margin-top: 4em;
+	/*padding: 1em;*/
 }
 
 #logo_box img{
 	width: 100%;
 }
 
-#nav_mobile{
+/*#nav_mobile{
 	display: block;
 	width: 100%;
 	position: fixed;
@@ -596,44 +604,50 @@ ul li a:active {
 	width: 100%;
 }
 
-#col1 {
+/*#col1 {
 	margin: 19.5em 0 5em;
 	width: 100%;
 	z-index: 1;
-}
+}*/
 
-#square_wrapper{
+/*#square_wrapper{
 	width: 40%;
 	height: 600px;
 	margin: 0 auto;
 	float: none;
 	position: relative;
-}
+}*/
 
 #col2{
 	float: none;
 }
 
-#col3{
+#col2_abouttext{
+	width: 50%;
+	margin: 4em 0 4em 2em;
+	float: left;
+}
+
+/*#col3{
 	overflow: hidden;
 	bottom: 0;
 	position: absolute;
 	float: none;
-}
+}*/
 
-#col2_abouttext{
-	width: 65%;
-	margin: 4em 0 4em 1em;
-}
+/*#col2_abouttext{
+	width: 100%;
+	/*margin-left: 4em;*/
 
-#col1_about h2{
+/*#col1_about h2{
 	font: 300 1.5em/1.5em "Source Sans Pro", sans-serif;
-}
+}*/
 
 #col2_abouttext p{
-	font: 200 1.5em/1.5em "Source Sans Pro", sans-serif;
+	font: 200 2em/2em "Source Sans Pro", sans-serif;
 }
 
+/*
 #expertise_title h2{
 	font: 300 1.5em/1.5em "Source Sans Pro", sans-serif;
 }
@@ -657,9 +671,9 @@ ul li a:active {
 
 .icon_info{
 	margin-bottom: 3em;
-}
+}*/
 
-/*Footer------------------------------*/
+/*Footer------------------------------
 footer{
 	width: 100%;
 	background-color: rgb(61, 122, 247);
@@ -670,11 +684,11 @@ footer{
 #contact{
 	height: 12em;
 	padding: 2em;
-}
+}*/
 
 /* PORTFOLIO FOIO PAGE CLASSES------------------------------*/
 
-#video{
+/*#video{
 	margin-bottom: 1em;
 }
 
@@ -698,17 +712,27 @@ footer{
 
 .image_box{	
 	width: 90%;
-	/*max-width: 600px;*/
+	max-width: 600px;
 }
 
 .folio_image{
 	margin-bottom: 1em;
+}*/
 }
-}
+
 /* MQ iphones---------------------------------------------------*/
 @media screen and (max-width:640px){
 
-#col1 {
+#col2_abouttext{
+	width: 70%;
+	margin: 4em;
+}
+
+#col2_abouttext p{
+	font: 200 1.5em/1.5em "Source Sans Pro", sans-serif;
+}
+
+/*#col1 {
 	margin: 14.5em 0 2em;
 }
 
@@ -744,8 +768,8 @@ footer{
 }
 
 #col2_abouttext{
-	width: 60%;
-	margin: 2em 0 2em 1em;
+	width: 70%;
+	margin: 4em;
 }
 
 #col1_about h2{
@@ -753,7 +777,7 @@ footer{
 }
 
 #col2_abouttext p{
-	font: 200 1em/1.5em "Source Sans Pro", sans-serif;
+	font: 200 2em/1.5em "Source Sans Pro", sans-serif;
 }
 
 #wow_image{
@@ -788,6 +812,7 @@ footer{
 
 .icon_type{
 	width: 2em;
+}*/
 }
-}
+
 
